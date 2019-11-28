@@ -1,19 +1,13 @@
 <?php
-/**
- * PHP version 7.3
- *
- * @package WebSystemsSolutions\EloquentObjectRelations\Classes
- * @author  Sviatoslav Breznitskyi <bugatis15@gmail.com>
- */
 
-namespace WebSystemsSolutions\EloquentObjectRelations\Classes;
+namespace mistery23\EloquentObjectRelations\Classes;
 
 use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class HasOneOrMany
  *
- * @package WebSystemsSolutions\EloquentObjectRelations\Classes
+ * @package mistery23\EloquentObjectRelations\Classes
  */
 class HasMany extends \Illuminate\Database\Eloquent\Relations\HasMany
 {

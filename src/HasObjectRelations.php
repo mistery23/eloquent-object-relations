@@ -1,21 +1,15 @@
 <?php
-/**
- * PHP version 7.3
- *
- * @package WebSystemsSolutions\EloquentObjectRelations\Traits
- * @author  Sviatoslav Breznitskyi <bugatis15@gmail.com>
- */
 
-namespace WebSystemsSolutions\EloquentObjectRelations;
+namespace mistery23\EloquentObjectRelations;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use WebSystemsSolutions\EloquentObjectRelations\Classes\HasMany;
-use WebSystemsSolutions\EloquentObjectRelations\Classes\HasOne;
+use mistery23\EloquentObjectRelations\Classes\HasMany;
+use mistery23\EloquentObjectRelations\Classes\HasOne;
 
 /**
  * Trait HasRelations
- * @package WebSystemsSolutions\EloquentObjectRelations\Traits
+ * @package mistery23\EloquentObjectRelations\Traits
  */
 trait HasObjectRelations
 {
