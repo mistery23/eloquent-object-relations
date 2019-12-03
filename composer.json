@@ -2,6 +2,7 @@
     "name": "mistery23/eloquent-object-relations",
     "description": "laravel object relations",
     "type": "library",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "mistery23",
