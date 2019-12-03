@@ -2,16 +2,20 @@
     "name": "mistery23/eloquent-object-relations",
     "description": "laravel object relations",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "mistery23",
             "email": "mis_tery@ukr.net"
+        },
+        {
+            "name": "SviatoslavBereznitskyi",
+            "email": "bugatis15@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/framework": "6.0.*"
+        "illuminate/database": "6.*"
     },
     "autoload": {
         "psr-4": {

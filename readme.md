@@ -7,7 +7,7 @@ composer require mistery23/eloquent-object-relations
 Using
 ---
 ```
-use WebSystemsSolutions\EloquentObjectRelations\HasObjectRelations;
+use mistery23\EloquentObjectRelations\HasObjectRelations;
 
 class User extends Model
 {
