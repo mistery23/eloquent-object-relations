@@ -2,7 +2,7 @@
 
 ## Install
 ```
-composer require websystemssolutions/eloquent-object-relations
+composer require mistery23/eloquent-object-relations
 ```
 Using
 ---
