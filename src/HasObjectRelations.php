@@ -4,8 +4,8 @@ namespace Mistery23\EloquentObjectRelations;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use mistery23\EloquentObjectRelations\Classes\HasMany;
-use mistery23\EloquentObjectRelations\Classes\HasOne;
+use Mistery23\EloquentObjectRelations\Classes\HasMany;
+use Mistery23\EloquentObjectRelations\Classes\HasOne;
 
 /**
  * Trait HasRelations
