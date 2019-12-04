@@ -1,6 +1,6 @@
 <?php
 
-namespace mistery23\EloquentObjectRelations;
+namespace Mistery23\EloquentObjectRelations;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
