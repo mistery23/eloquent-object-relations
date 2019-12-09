@@ -50,7 +50,8 @@ trait HasObjectRelations
      * @param  string  $foreignKey
      * @param  string  $ownerKey
      * @param  string  $relation
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     *
+     * @return BelongsTo
      */
     protected function newBelongsTo(Builder $query, Model $child, $foreignKey, $ownerKey, $relation)
     {
@@ -68,7 +69,8 @@ trait HasObjectRelations
      * @param  string  $parentKey
      * @param  string  $relatedKey
      * @param  string  $relationName
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     *
+     * @return BelongsToMany
      */
     protected function newBelongsToMany(Builder $query, Model $parent, $table, $foreignPivotKey, $relatedPivotKey,
         $parentKey, $relatedKey, $relationName = null)
