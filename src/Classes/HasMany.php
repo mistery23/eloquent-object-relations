@@ -14,7 +14,7 @@ class HasMany extends \Illuminate\Database\Eloquent\Relations\HasMany
     /**
      * Build model dictionary keyed by the relation's foreign key.
      *
-     * @param  \Illuminate\Database\Eloquent\Collection  $results
+     * @param Collection $results
      *
      * @return array
      */

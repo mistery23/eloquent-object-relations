@@ -2,6 +2,7 @@
 
 namespace Mistery23\EloquentObjectRelations\Classes;
 
+use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class BelongsToMany
@@ -13,9 +14,10 @@ class BelongsToMany extends \Illuminate\Database\Eloquent\Relations\BelongsToMan
     /**
      * Match the eagerly loaded results to their parents.
      *
-     * @param  array   $models
-     * @param  \Illuminate\Database\Eloquent\Collection $results
-     * @param  string  $relation
+     * @param array      $models
+     * @param Collection $results
+     * @param string     $relation
+     *
      * @return array
      */
     public function match(array $models, Collection $results, $relation)
