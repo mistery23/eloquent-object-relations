@@ -6,8 +6,6 @@ use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class HasOneOrMany
- *
- * @package mistery23\EloquentObjectRelations\Classes
  */
 class HasMany extends \Illuminate\Database\Eloquent\Relations\HasMany
 {

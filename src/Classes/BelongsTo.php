@@ -1,9 +1,12 @@
 <?php
 
-namespace Illuminate\Database\Eloquent\Relations;
+namespace Mistery23\EloquentObjectRelations\Classes;
 
 
-class BelongsTo extends Illuminate\Database\Eloquent\BelongsTo
+/**
+ * Class BelongsTo
+ */
+class BelongsTo extends \Illuminate\Database\Eloquent\Relations\BelongsTo
 {
 
     /**
