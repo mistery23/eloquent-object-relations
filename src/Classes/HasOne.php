@@ -23,7 +23,7 @@ class HasOne extends \Illuminate\Database\Eloquent\Relations\HasOne
         $foreign = $this->getForeignKeyName();
 
         return $results->mapToDictionary(
-            function ($result) use ($foreign) {
+            static function ($result) use ($foreign) {
                 return [(string)$result->{$foreign} => $result];
             }
         )->all();

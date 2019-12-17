@@ -32,7 +32,7 @@ class BelongsTo extends \Illuminate\Database\Eloquent\Relations\BelongsTo
         $dictionary = [];
 
         foreach ($results as $result) {
-            $dictionary[$result->getAttribute($owner)] = $result;
+            $dictionary[(string)$result->getAttribute($owner)] = $result;
         }
 
         // Once we have the dictionary constructed, we can loop through all the parents
