@@ -1,13 +1,13 @@
 <?php
 
-namespace Mistery23\EloquentObjectRelations;
+namespace Mistery23\ObjectRelations;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use Mistery23\EloquentObjectRelations\Classes\BelongsTo;
-use Mistery23\EloquentObjectRelations\Classes\BelongsToMany;
-use Mistery23\EloquentObjectRelations\Classes\HasMany;
-use Mistery23\EloquentObjectRelations\Classes\HasOne;
+use Mistery23\ObjectRelations\Classes\BelongsTo;
+use Mistery23\ObjectRelations\Classes\BelongsToMany;
+use Mistery23\ObjectRelations\Classes\HasMany;
+use Mistery23\ObjectRelations\Classes\HasOne;
 
 /**
  * Trait HasRelations
@@ -45,8 +45,8 @@ trait HasObjectRelations
     /**
      * Instantiate a new BelongsTo relationship.
      *
-     * @param  \Illuminate\Database\Eloquent\Builder  $query
-     * @param  \Illuminate\Database\Eloquent\Model  $child
+     * @param  Builder $query
+     * @param  Model   $child
      * @param  string  $foreignKey
      * @param  string  $ownerKey
      * @param  string  $relation
@@ -61,8 +61,8 @@ trait HasObjectRelations
     /**
      * Instantiate a new BelongsToMany relationship.
      *
-     * @param  \Illuminate\Database\Eloquent\Builder  $query
-     * @param  \Illuminate\Database\Eloquent\Model  $parent
+     * @param  Builder $query
+     * @param  Model   $parent
      * @param  string  $table
      * @param  string  $foreignPivotKey
      * @param  string  $relatedPivotKey

@@ -8,7 +8,11 @@
         "eloquent",
         "model",
         "laravel",
-        "relations"
+        "relations",
+        "value objects",
+        "vo",
+        "primary key",
+        "foreign key"
     ],
     "type": "library",
     "authors": [
@@ -27,11 +31,11 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/database": "~5.8.0|^6.0"
+        "illuminate/database": "^5.8.0"
     },
     "autoload": {
         "psr-4": {
-            "Mistery23\\EloquentObjectRelations\\": "src/"
+            "Mistery23\\ObjectRelations\\": "src/"
         }
     }
 }

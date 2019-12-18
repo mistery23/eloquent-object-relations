@@ -1,6 +1,6 @@
 <?php
 
-namespace Mistery23\EloquentObjectRelations\Classes;
+namespace Mistery23\ObjectRelations\Classes;
 
 use Illuminate\Database\Eloquent\Collection;
 
